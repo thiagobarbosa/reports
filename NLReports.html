@@ -1,0 +1,57 @@
+<html>
+<head>
+	
+<script src="https://code.highcharts.com/highcharts.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js">    </script>
+
+
+<style>
+.box { 
+	display:block; }
+
+.clear{
+    clear:both;
+}
+
+
+</style>
+
+
+</head>
+
+
+<body style="background-color:#212121";>
+
+<div class="box">
+<iframe align="left" class="highcharts-iframe" src="https://cloud.highcharts.com/embed/YSiZ3MrJ1/" style="border: 0; width: 100%; height: 500px"></iframe>
+</div>
+
+
+<div class="box">
+<iframe align="right" class="highcharts-iframe" src="https://cloud.highcharts.com/embed/LqezXTyYe/" style="border: 0; width: 100%; height: 500px"></iframe>
+</div>
+
+
+
+<div class="box">
+<iframe align="left"  class="highcharts-iframe" src="https://cloud.highcharts.com/embed/LfYZl2bDF/" style="border: 0; width:50%;  height: 500px"></iframe>
+</div>
+
+<div class="box">
+<iframe align="right" class="highcharts-iframe" src="https://cloud.highcharts.com/embed/OCF3gfy9J/" style="border: 0; width:50%;  height: 500px"></iframe>
+</div>
+
+<div class="box">
+<iframe class="highcharts-iframe" src="https://cloud.highcharts.com/embed/gfHInpvVg/" style="border: 0; width: 100%; height: 500px"></iframe>
+</div>
+
+
+<script>
+            $.ajax("https://docs.google.com/spreadsheet/pub?key=15sTJILWCuWESS_QK1ta1znVmFUpwPVTJxzgECb-g4hs&single=true&gid=0&range=b3&output=csv").done(function(result){
+                alert(result);
+            });
+        </script>
+
+</body>
+</html>
